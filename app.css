@@ -1,0 +1,15 @@
+/*.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+  background-color: #444;
+}
+
+.container-fluid header text-center {
+  border-color:aliceblue;
+}
+
+.navbar-default {
+    background-color: #333;
+    border-color: #e7e7e7;
+}*/
+.tablerow>h5{
+  text-decoration-color: blue;
+}
