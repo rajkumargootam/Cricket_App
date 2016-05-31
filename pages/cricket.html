@@ -1,6 +1,6 @@
 <nav class="nav navbar-inverse">
   <div class="container">
-    <img src="./images/cricket-logo.jpg" height="50" width="50"
+    <img src="./images/images.jpg" height="50" width="50"
     <h2>CriZone</h2>
   </div>
 </nav>
@@ -15,13 +15,12 @@
      <thead>
        <tr>
          <th><h3>Description</h3></th>
-         <th><h3>Title</h3></th>
+
        </tr>
      </thead>
      <tbody>
      <tr ng-repeat = "n in hm.cricketResponse.data">
        <th><a href="#/cricketdetails/{{n.unique_id}}"><h5>{{n.description}}</h5></a></th>
-       <th><a href="#"><h5>{{n.title}}</h5></a></th>
 
      </tr>
      </tbody>
